@@ -1,0 +1,46 @@
+{
+  "Baseline (majority class)": {
+    "accuracy": 0.9013,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": NaN,
+    "pr_auc": NaN
+  },
+  "Logistic Regression": {
+    "accuracy": 0.6916,
+    "precision": 0.2189,
+    "recall": 0.8264,
+    "f1": 0.3461,
+    "roc_auc": 0.801,
+    "pr_auc": 0.2221,
+    "cv_roc_auc": 0.8006,
+    "cv_pr_auc": 0.2209
+  },
+  "Random Forest": {
+    "accuracy": 0.8538,
+    "precision": 0.3944,
+    "recall": 0.8981,
+    "f1": 0.5481,
+    "roc_auc": 0.9377,
+    "pr_auc": 0.6527,
+    "cv_roc_auc": 0.937,
+    "cv_pr_auc": 0.6479
+  },
+  "Isolation Forest": {
+    "accuracy": 0.8106,
+    "precision": 0.0424,
+    "recall": 0.0425,
+    "f1": 0.0424,
+    "roc_auc": 0.5643,
+    "pr_auc": 0.1022
+  },
+  "Ensemble (Majority Vote)": {
+    "accuracy": 0.8387,
+    "precision": 0.3566,
+    "recall": 0.7883,
+    "f1": 0.4911,
+    "roc_auc": 0.9093,
+    "pr_auc": 0.4712
+  }
+}

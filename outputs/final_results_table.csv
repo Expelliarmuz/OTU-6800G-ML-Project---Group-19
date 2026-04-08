@@ -1,0 +1,6 @@
+Model,accuracy,precision,recall,f1,roc_auc,pr_auc
+Baseline (majority class),0.9013,0.0,0.0,0.0,,
+Logistic Regression,0.6916,0.2189,0.8264,0.3461,0.801,0.2221
+Random Forest,0.8538,0.3944,0.8981,0.5481,0.9377,0.6527
+Isolation Forest,0.8106,0.0424,0.0425,0.0424,0.5643,0.1022
+Ensemble (Majority Vote),0.8387,0.3566,0.7883,0.4911,0.9093,0.4712

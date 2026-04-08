@@ -1,11 +1,6 @@
 # Large raw data
 rba-dataset.csv
 
-# Generated outputs / models
-outputs/
-*.pkl
-*.parquet
-
 # Jupyter checkpoints
 .ipynb_checkpoints/
 

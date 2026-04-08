@@ -1,0 +1,38 @@
+{
+  "feature_cols": [
+    "hour",
+    "dayofweek",
+    "month",
+    "is_weekend",
+    "is_night",
+    "country_freq",
+    "region_freq",
+    "city_freq",
+    "asn_freq",
+    "device_type_enc",
+    "browser_freq",
+    "os_freq",
+    "rtt_log1p",
+    "rtt_zscore",
+    "user_login_freq",
+    "user_country_count",
+    "user_ip_count",
+    "ip_login_count",
+    "ip_fail_count",
+    "ip_fail_rate",
+    "ip_user_count",
+    "user_prev_success_rate",
+    "ip_prev_login_count",
+    "ip_prev_fail_count",
+    "user_prev_login_count",
+    "user_prev_fail_count",
+    "user_time_since_last_login",
+    "country_changed",
+    "device_changed"
+  ],
+  "target_cols": [
+    "Is Account Takeover",
+    "Is Attack IP",
+    "Login Successful"
+  ]
+}
